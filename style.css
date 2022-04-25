@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+footer{
+	width: 100%;
+	height: 60vh;
+	background: hsl(216, 53%, 9%);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	border: block;
+
+}
+.logo-head{
+	position: relative;
+	top: 110px;
+	left: 100px;
+
+}
+.footer-body{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 90%;
+	padding-top: 150px;
+	font-size: 14px;
+
+}
+.location{
+	display: flex;
+	width: 300px;
+	color: white;
+
+}
+
+.reach-fylo{
+	text-decoration-style: none;
+	list-style: none;
+	color: white;
+}
+.about-fylo a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+li{
+	text-decoration: none;
+	list-style: none;
+	line-height: 2em
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+.fa-solid{
+	margin-right: 15px;
+}
+.icon-location{
+	margin-right: 15px;
+}
+.fa-brands{
+	margin-right: 15px;
+	padding: 5px;
+	border: 2.5px dashed white;
+	border-radius: 50%;
+	color: white;
+}
+a .fa-brands{
+	text-decoration: none;
+	color: white;
+}
+
+}
+
+
+
+/*querry for footer section*/
+
+@media only screen and (max-width: 719px){
+
+footer body{
+	 display: table-column-group;
+	flex-direction:block;
+	text-align: center;
+	justify-content: space-between;
+}
+p{
+	display: block;
+	text-align: center;
+
+}
+.location{
+	display: flex;
+	text-align: center;
+}
